@@ -1,6 +1,8 @@
 import React from "react";
 import illustration from "../assets/Group_606.svg";
+import heroSection from "../assets/something-for-everyone.svg";
 import "./homepage.css";
+// import Card from "./Card";
 
 function Homepage() {
   return (
@@ -21,6 +23,21 @@ function Homepage() {
           <img src={illustration} className="illustrator" />
         </div>
       </div>
+      <div>
+        <p className="something-for-everyone">Something for everyone</p>
+      </div>
+      <div className="heroSection">
+        <img src={heroSection} />
+      </div>
+      <div>
+        <h2 className="service">What is new at the service Now</h2>
+        <p className="whats-new">
+          Great teamwork requires more than just great tools for us our proven
+          methods, guides excercises that help make your work place better, and
+          happier.
+        </p>
+      </div>
+      <div>{/* <Card /> */}</div>
     </div>
   );
 }

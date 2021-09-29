@@ -4,9 +4,9 @@
   /* left: -125px; */
   /* top: -5px; */
   position: absolute;
-  background-image: url("/src/assets/Group\ 604.png");
+  /* background-image: url("/src/assets/Group\ 604.png"); */
   background-repeat: no-repeat;
-  /* background-color: #e6215c; */
+  background-color: #e6215c;
 }
 
 .card {
@@ -59,4 +59,79 @@
   left: 628px;
   top: 86px;
   border-radius: 0px;
+}
+.heroSection {
+  position: absolute;
+  width: 975px;
+  height: 1215px;
+  left: 233px;
+  top: 1005px;
+}
+
+.something-for-everyone {
+  position: absolute;
+  width: 768px;
+  height: 54px;
+  left: 332px;
+  top: 894px;
+
+  font-family: Gilroy-Bold;
+  font-size: 50px;
+  line-height: 54px;
+
+  /* identical to box height, or 108% */
+  text-align: center;
+
+  /* #3E3C50 */
+  color: #3e3c50;
+}
+
+.rectangle {
+  position: absolute;
+  width: 722px;
+  height: 724px;
+  left: 909px;
+  top: 1539.53px;
+
+  background: linear-gradient(
+    222.24deg,
+    rgba(230, 33, 92, 0.064) 4.58%,
+    rgba(230, 33, 92, 0) 67.82%
+  );
+  border-radius: 120px;
+  transform: rotate(-45deg);
+}
+
+.service {
+  position: absolute;
+  width: 727px;
+  height: 124px;
+  left: 338px;
+  top: 2321px;
+
+  font-family: Gilroy-Bold;
+  font-size: 50px;
+  line-height: 54px;
+
+  /* or 108% */
+
+  /* #3E3C50 */
+  color: #3e3c50;
+}
+.whats-new {
+  position: absolute;
+  width: 740px;
+  height: 40px;
+  left: 351px;
+  top: 2416px;
+
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* or 111% */
+  text-align: center;
+
+  /* #7987A5 */
+  color: #7987a5;
 }
