@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
   /* background-color: #e6215c; */
 }
+
+.card {
+  position: relative;
+}
 .tag-line {
   position: absolute;
 
